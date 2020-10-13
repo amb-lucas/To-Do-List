@@ -1,0 +1,27 @@
+* {
+  --dark-purple: #a683e3;
+  --light-purple: #e4e9fd;
+  --green: #1abc9c;
+  --light-bg: #f8f8f8;
+
+  --light-font: #777;
+  --white-font: #fff;
+  --dark-font: #00204a;
+
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: -webkit-linear-gradient(
+    65deg,
+    var(--dark-purple) 50%,
+    var(--light-purple) 50%
+  );
+  min-height: 100vh;
+  font-family: "helvetica neue";
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+}

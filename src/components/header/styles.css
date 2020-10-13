@@ -1,0 +1,19 @@
+.navbar {
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+
+  background-color: var(--light-bg);
+  color: var(--light-font);
+
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.navbar p {
+  margin: 0 64px;
+  font-size: 24px;
+}

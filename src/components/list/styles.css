@@ -1,0 +1,98 @@
+.to-do {
+  margin: 20px auto;
+  width: 600px;
+}
+
+.to-do-title {
+  width: 100%;
+
+  color: var(--white-font);
+  background-color: var(--dark-purple);
+
+  font-size: 32px;
+  padding: 12px 0;
+
+  border-radius: 8px;
+
+  text-align: center;
+  margin: 48px auto;
+
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.to-do-list {
+  width: 100%;
+
+  background-color: var(--white-font);
+  margin: 20px auto;
+
+  border-radius: 5px;
+  font-size: 20px;
+  color: var(--dark-font);
+
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.to-do-list tbody tr:first-of-type td {
+  border-radius: 8px 8px 0 0;
+}
+
+.to-do-list tbody tr td {
+  border-bottom: 1px solid #f1f1f1;
+}
+.to-do-list tbody tr:last-child td {
+  border-bottom: 0px;
+}
+
+.to-do-list tbody tr td {
+  padding: 12px;
+}
+
+.to-do-list tbody tr td button {
+  margin-left: 14px;
+  margin-right: 20px;
+  width: 12px;
+  height: 12px;
+}
+
+.to-do-list tbody tr:last-of-type td input {
+  border: none;
+  border-bottom: 2px solid var(--dark-purple);
+  outline: none;
+  text-align: center;
+  width: 520px;
+}
+
+.to-do-list tbody tr:last-of-type td input:focus {
+  border-bottom: 2px solid var(--dark-purple);
+}
+
+.to-do-list tbody tr:last-of-type td {
+  position: relative;
+}
+
+.to-do-list tbody tr:last-of-type td button {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  background-color: var(--dark-purple);
+  transition: 0.2s;
+
+  position: absolute;
+  right: 16px;
+  top: 7.5px;
+  margin: 0;
+
+  color: var(--white-font);
+}
+.to-do-list tbody tr:last-of-type td button:hover {
+  opacity: 0.8;
+}
+
+::placeholder {
+  color: var(--light-font);
+}
